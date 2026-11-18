@@ -1,0 +1,5 @@
+- insert:
+    - id: forever-midnight
+      name: '@local/forever-midnight'
+      config:
+        targetHour: 3

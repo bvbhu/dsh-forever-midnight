@@ -1,0 +1,25 @@
+{
+  "name": "@local/forever-midnight",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Remap the injected time-context reading to a configurable deep-night hour using a self-consistent timezone conversion.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Forever midnight",
+    "description": "Remaps the injected time-context reading to a configurable deep-night hour (default 03:00) using a real fixed-offset timezone, so the timestamp stays self-consistent while the clock, session log and browser zone remain untouched."
+  }
+}
