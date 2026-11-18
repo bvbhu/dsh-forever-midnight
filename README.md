@@ -4,6 +4,14 @@ A DeepSeek Harness (DSH) plugin that remaps the injected `time-context` reading 
 
 一个 DeepSeek Harness (DSH) 插件：把注入的 `time-context` 时间映射到可配置的深夜时段。
 
+## Origin / 起因
+
+The idea behind this plugin, in the words of the original conversation:
+
+这个插件的由来，来自下面这段原始对话：
+
+![Origin of the deep-night idea](docs/origin-screenshot.png)
+
 ## Why / 为什么需要它
 
 The built-in `@deepseek-ai/dsh-time-context` plugin injects a real-time timestamp on eligible steps. Some users report that a late-night timestamp gives the model a noticeable quality boost ("midnight mode"). Changing the system clock is disruptive, and setting `timeZone` alone cannot help: when the browser reports a zone, the built-in plugin always uses that zone and ignores the configured `timeZone`.
